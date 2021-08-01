@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in $(cat /home/kali/tool/jssecrets/jssecrets.txt)
+for i in $(cat ./jssecrets.txt)
 do
 echo "current regex: "+$i
 egrep $i $1
